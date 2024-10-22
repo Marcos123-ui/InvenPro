@@ -1,0 +1,49 @@
+﻿@*model List<InvenPro.Web.Models.Entities.Suppliers>*@
+@model SuppliersViewModel;
+
+
+
+@{
+    ViewData["Title"] = "Supplier List";
+
+    ///var infoOnlyActive = ViewBag.SupplierInformation as List<InvenPro.Web.Models.Entities.Suppliers>;
+}
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<tr>
+    <tdcolspan ="4">All Suppliers</td>
+</tr>
+<div class="text-center">
+   <table class="table table-bordered">
+       <thead>
+            <tr>
+                <th>id</th>
+                <th>Name</th>
+                <th>Lastname</th>
+                <th>Actions</th>
+            </tr>
+       </thead>
+   
+      <tr>
+          <tdcolspan = "4">Active Suppliers</td>
+      </tr>
+    @foreach (var item in Model.AllSuppliers)
+        {
+            <tr>
+                <td> @item.Id</td>
+                <td> @item.Name</td>
+                <td></td>
+                <td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td></td>
+            </tr>
+         
+        }
+
+</table>
+</div>

@@ -1,7 +1,15 @@
+using InvenPro.Web.Data;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<InvenProDbContext>(p =>
+    p.UseSqlServer(builder.Configuration.GetConnectionString("InvenProStrConnection")));
+
 
 var app = builder.Build();
 
