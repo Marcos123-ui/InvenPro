@@ -10,7 +10,7 @@ namespace InvenPro.Web.Data
             
         }
 
-        public DbSet<Suppliers> Supplier { get; set; }
+        public DbSet<Suppliers> Suppliers { get; set; }
     }
     
     

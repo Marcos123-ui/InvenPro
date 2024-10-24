@@ -4,46 +4,50 @@
 
 
 @{
-    ViewData["Title"] = "Supplier List";
-
-    ///var infoOnlyActive = ViewBag.SupplierInformation as List<InvenPro.Web.Models.Entities.Suppliers>;
+	ViewData["Title"] = "Supplier List";
 }
 
 <p>
-    <a asp-action="Create">Create New</a>
+	<a class="btn btn-primary" asp-action="Create">Create New</a>
 </p>
 <tr>
-    <tdcolspan ="4">All Suppliers</td>
+	<tdcolspan ="4">All Suppliers</td>
 </tr>
 <div class="text-center">
    <table class="table table-bordered">
-       <thead>
-            <tr>
-                <th>id</th>
-                <th>Name</th>
-                <th>Lastname</th>
-                <th>Actions</th>
-            </tr>
-       </thead>
-   
-      <tr>
-          <tdcolspan = "4">Active Suppliers</td>
-      </tr>
-    @foreach (var item in Model.AllSuppliers)
-        {
-            <tr>
-                <td> @item.Id</td>
-                <td> @item.Name</td>
-                <td></td>
-                <td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </td></td>
-            </tr>
-         
-        }
+	   <thead>
+			<tr>
+				<th>id</th>
+				<th>Name</th>
+				<th>Lastname</th>
+				<th>Email</th>
+				<th>Phone</th>
+				<th>Gender</th>
+				<th>IsActive</th>
+			</tr>
+	   </thead>
+
+	  <tr>
+		  <tdcolspan = "4">Active Suppliers</td>
+	  </tr>
+		@foreach (var item in Model.AllSuppliers)
+		{
+				<tr>
+					<td> @item.Id </td>
+					<td> @item.Name </td>
+					<td> @item.LastName </td>
+					<td> @item.Email </td>
+					<td> @item.Phone </td>
+					<td> @item.Gender </td>
+					<td> @item.IsActive </td>
+					<td>
+					<a class="btn btn-warning" asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+					<a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id">Details</a> |
+					<a class="btn btn-danger" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+					</td>
+				</tr>
+
+		}
 
 </table>
 </div>
