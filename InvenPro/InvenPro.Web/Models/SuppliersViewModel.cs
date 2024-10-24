@@ -1,6 +1,6 @@
-﻿using InvenPro.Web.Models.Entities;
+﻿using InvenPro.Domain.Entities;
 
-namespace InvenPro.Web.Models
+namespace InvenPro.Domain
 {
     public class SuppliersViewModel
     {

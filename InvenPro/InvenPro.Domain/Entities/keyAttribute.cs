@@ -1,5 +1,5 @@
 ﻿
-namespace InvenPro.Web.Models.Entities
+namespace InvenPro.Domain.Entities
 {
     internal class keyAttribute : Attribute
     {

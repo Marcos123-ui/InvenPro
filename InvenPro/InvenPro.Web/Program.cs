@@ -1,4 +1,4 @@
-using InvenPro.Web.Data;
+using InvenPro.Domain;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

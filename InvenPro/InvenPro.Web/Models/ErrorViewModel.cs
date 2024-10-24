@@ -1,4 +1,4 @@
-namespace InvenPro.Web.Models
+namespace InvenPro.Domain
 {
     public class ErrorViewModel
     {

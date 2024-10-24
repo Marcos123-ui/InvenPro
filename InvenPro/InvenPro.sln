@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvenPro.Web", "InvenPro.Web\InvenPro.Web.csproj", "{3ECE19AA-1DBB-4563-A455-47845FF25CD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenPro.Web", "InvenPro.Web\InvenPro.Web.csproj", "{3ECE19AA-1DBB-4563-A455-47845FF25CD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvenPro.API", "InvenPro.API\InvenPro.API.csproj", "{7950FB3C-7156-41ED-B494-F1E703DE3CD5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenPro.API", "InvenPro.API\InvenPro.API.csproj", "{7950FB3C-7156-41ED-B494-F1E703DE3CD5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvenPro.Domain", "InvenPro.Domain\InvenPro.Domain.csproj", "{EC12EECF-AE4E-4394-A927-51D22E7D8CE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenPro.Domain", "InvenPro.Domain\InvenPro.Domain.csproj", "{EC12EECF-AE4E-4394-A927-51D22E7D8CE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvenPro.Application", "InvenPro.Application\InvenPro.Application.csproj", "{EB94E9EB-3F39-49F5-BD40-0B903C3D0059}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenPro.Application", "InvenPro.Application\InvenPro.Application.csproj", "{EB94E9EB-3F39-49F5-BD40-0B903C3D0059}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvenPro.Infraestructure", "InvenPro.Infraestructure\InvenPro.Infraestructure.csproj", "{2344C19C-486B-4FF6-99B6-04D9AED75B05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenPro.Infraestructure", "InvenPro.Infraestructure\InvenPro.Infraestructure.csproj", "{2344C19C-486B-4FF6-99B6-04D9AED75B05}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

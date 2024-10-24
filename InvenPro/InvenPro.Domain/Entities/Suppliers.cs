@@ -1,4 +1,4 @@
-﻿namespace InvenPro.Web.Models.Entities
+﻿namespace InvenPro.Domain.Entities
 {
     public class Suppliers
     {

@@ -1,6 +1,6 @@
-﻿using InvenPro.Web.Data;
-using InvenPro.Web.Models;
-using InvenPro.Web.Models.Entities;
+﻿
+using InvenPro.Domain;
+using InvenPro.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

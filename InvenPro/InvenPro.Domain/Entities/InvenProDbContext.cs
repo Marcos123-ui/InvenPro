@@ -1,7 +1,7 @@
-﻿using InvenPro.Web.Models.Entities;
+﻿using InvenPro.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace InvenPro.Web.Data
+namespace InvenPro.Domain
 {
     public class InvenProDbContext: DbContext
     {

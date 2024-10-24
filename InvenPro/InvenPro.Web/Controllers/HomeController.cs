@@ -1,4 +1,4 @@
-using InvenPro.Web.Models;
+using InvenPro.Domain;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
