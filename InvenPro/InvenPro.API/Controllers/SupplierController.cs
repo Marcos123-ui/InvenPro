@@ -22,5 +22,18 @@ namespace InvenPro.API.Controllers
 			var Suppliers = await _context.Suppliers.ToListAsync();
 			return Suppliers;
 		}
+
+		[HttpPost(nameof(AddSuppliers))]
+		public async Task<ActionResult<Suppliers>> AddSuppliers(Suppliers supplier)
+		{
+			_context.Suppliers.Add(supplier);
+			await _context.SaveChangesAsync();
+			return supplier;
+		}
 	}
+	
+
+
+
 }
+
