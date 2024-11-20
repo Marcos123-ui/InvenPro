@@ -1,7 +1,7 @@
 ﻿using InvenPro.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace InvenPro.Domain
+namespace InvenPro.Persistence
 {
     public class InvenProDbContext: DbContext
     {

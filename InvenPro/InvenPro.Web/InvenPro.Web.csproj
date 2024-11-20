@@ -12,7 +12,6 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
       <PrivateAssets>all</PrivateAssets>
@@ -23,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InvenPro.Domain\InvenPro.Domain.csproj" />
+    <ProjectReference Include="..\InvenPro.Persistence\InvenPro.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,7 @@
 ﻿
 using InvenPro.Domain;
 using InvenPro.Domain.Entities;
+using InvenPro.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 

@@ -22,6 +22,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\InvenPro.Domain\InvenPro.Domain.csproj" />
+    <ProjectReference Include="..\InvenPro.Infraestructure\InvenPro.Infraestructure.csproj" />
+    <ProjectReference Include="..\InvenPro.Persistence\InvenPro.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,4 +1,5 @@
 using InvenPro.Domain;
+using InvenPro.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 

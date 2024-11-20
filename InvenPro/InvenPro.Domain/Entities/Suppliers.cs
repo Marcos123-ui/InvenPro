@@ -1,6 +1,8 @@
-﻿namespace InvenPro.Domain.Entities
+﻿using InvenPro.Domain.Core;
+
+namespace InvenPro.Domain.Entities
 {
-    public class Suppliers
+    public class Suppliers:BaseEntity
     {
         [key]
         public int Id { get; set; }
