@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InvenPro.Infraestructure.interfaces
 {
-	internal class ProductRepository
+	public interface IProductRepository
 	{
 	}
 }

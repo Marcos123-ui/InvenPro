@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenPro.Application", "Inv
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenPro.Infraestructure", "InvenPro.Infraestructure\InvenPro.Infraestructure.csproj", "{2344C19C-486B-4FF6-99B6-04D9AED75B05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvenPro.Persistence", "InvenPro.Persistence\InvenPro.Persistence.csproj", "{D32E8604-E231-4243-BC45-1CA9B595EE6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InvenPro.Persistence", "InvenPro.Persistence\InvenPro.Persistence.csproj", "{D32E8604-E231-4243-BC45-1CA9B595EE6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvenPro.Common", "InvenPro.Common\InvenPro.Common.csproj", "{0CEFBB0E-AADE-41B4-A709-8E4DBB0C39EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{D32E8604-E231-4243-BC45-1CA9B595EE6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D32E8604-E231-4243-BC45-1CA9B595EE6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D32E8604-E231-4243-BC45-1CA9B595EE6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CEFBB0E-AADE-41B4-A709-8E4DBB0C39EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CEFBB0E-AADE-41B4-A709-8E4DBB0C39EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CEFBB0E-AADE-41B4-A709-8E4DBB0C39EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CEFBB0E-AADE-41B4-A709-8E4DBB0C39EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

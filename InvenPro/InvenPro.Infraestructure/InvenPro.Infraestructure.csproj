@@ -14,8 +14,11 @@
 
   <ItemGroup>
     <Folder Include="Data\" />
-    <Folder Include="interfaces\" />
     <Folder Include="Persistence\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InvenPro.Persistence\InvenPro.Persistence.csproj" />
   </ItemGroup>
 
 </Project>

@@ -9,9 +9,11 @@ namespace InvenPro.Infraestructure.Repository
 {
 	public class SuppliersRepository
 	{
-        public SuppliersRepository(InvenProDbContext)
+		private readonly InvenProDbContext _context;
+
+		public SuppliersRepository(InvenProDbContext context)
         {
-            
-        }
+			_context = context;
+		}
     }
 }
